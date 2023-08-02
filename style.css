@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(134, 161, 187);
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 70px;
+
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#show_sketch{
+   float: right;
+   
+}
+
+h4{
+    font-size:large;
+    font-family:'Times New Roman', Times, serif
+}
+
+canvas{
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    from {box-shadow: 1px 1px 38px rgb(46, 53, 46);}
+    to {box-shadow: 1px 1px 38px rgb(70, 61, 230);}
+}
+
+p{
+    padding-top: 10px;
+    font-size:25px;
+}
